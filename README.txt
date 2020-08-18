@@ -18,7 +18,7 @@ To Run The project:
 		python manage.py makemigrations app_user
 		python manage.py makemigrations app_quiz
 		python manage.py migrate
-(8) Import some dummy data from user_question_duration.sql. You Can PhpmyAdmin or whatever you comfortable with
+(8) Import some dummy data from user_question_duration.sql. You Can user PhpmyAdmin or whatever you are comfortable with
 (9) Run projet: python manage.py runserver
 (10) Go to localhost:8000
 (11) login with a dummy user (username: mizan, pass:1234)
@@ -34,5 +34,5 @@ python manage.py createsuperuser
 Then follow the subsequent steps on the pormt
 
 
-In case of any issue, feedback or suggestion you can mail back to : ridwanmizan@gmail.com
+In case of any issue, feedback or suggestion you can always mail back to : ridwanmizan@gmail.com
 	
