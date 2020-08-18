@@ -8,7 +8,7 @@ Pre-requisite: Python 3.7 or above
 
 To Run The project:
 
-(1) Download zip file then unzip or clone the project from https://github.com/rid47/online_exam.git
+(1) Download zip file then unzip or clone the project.
 (1) Create a virtual environment for the project
     (https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/)
 (2) Install required libraries from requirements.txt
