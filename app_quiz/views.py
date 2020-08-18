@@ -8,7 +8,7 @@ from app_user.decorator import login_required
 @login_required
 def question(request):
     all_questions_queryset = Question.objects.all().order_by('?')  # order by '?' randomizing  questions
-    if request.method == 'GET' and not request.session['ans_submitted']:
+    if request.method == 'GET' and not request.session['ans_submitted']:  # answer not submitted yet
         qa_list = []
         qa_dict = {}
         for q in all_questions_queryset:
@@ -23,9 +23,9 @@ def question(request):
             'qa_list': qa_list
         }
         return render(request, 'quiz/question.html', context)
-    elif request.method == 'GET' and request.session['ans_submitted']:
+    elif request.method == 'GET' and request.session['ans_submitted']:  # to handle page refresh after submit
         return render(request, 'quiz/score.html')
-    elif request.method == 'POST':
+    elif request.method == 'POST':  # verify answer and show score
         request.session['ans_submitted'] = True
         score = 0
         no_of_q = request.session['no_of_q']
