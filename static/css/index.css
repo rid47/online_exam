@@ -1,0 +1,27 @@
+
+
+.wrap-login100 {
+  width: 440px;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.login100-form-title {
+  display: block;
+  font-size: 39px;
+  line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: -webkit-linear-gradient(#49739a, #49739a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.label-input100 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.5;
+    padding-left: 7px;
+}

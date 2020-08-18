@@ -1,0 +1,8 @@
+*.xml
+.idea/
+*.iml
+app_user/migrations/
+app_user/__pycache__/
+*.pyc
+app_quiz/migrations/
+app_quiz/__pycache__/

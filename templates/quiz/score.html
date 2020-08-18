@@ -1,0 +1,5 @@
+Your Score is {{ request.session.score }} out of {{ request.session.no_of_q }}
+
+<p>
+    <a href="{% url 'app_user:logout' %}">Logout</a>
+</p>
